@@ -1,5 +1,6 @@
 from constants import *
 
+# last level is 0 or 1, 1 means it is the last level categor, 0 mean not.
 class Category:
     def __init__(self, conn, cur, name, url, parent_id = None, cat_id = None, last_level = 0):
         self.conn = conn
